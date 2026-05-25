@@ -1,6 +1,6 @@
 # The DARKROOM
 
-The DARKROOM serves as an assitant for home development of analog film. Unlike traditional timers, the timer in the DARKROOM 
+**The DARKROOM** serves as an assitant for home development of analog film. Unlike traditional timers, the timer in the app 
 is designed with the film development process in mind. A unified timer, which is set in advance and automatically transitions between 
 different stages of the process, allows the user to concentrate on crucial tasks such as chemistry handling and agitation, without 
 having to needlessly fiddle with timer controls.
@@ -21,8 +21,8 @@ source src/backend/backend_venv/bin/activate
 python src/backend/api.py
 ```
 
-The app binds to port 7493.  
-If you plan to run the app in an emulator, you will have to replace the base URL in `ApiClient.kt` from `localhost` to `10.0.2.2`.
+The app binds to port **7493**.  
+If you plan to run the app in an emulator, you will have to replace the base URL in `ApiClient.kt` from `localhost` to `10.0.2.2`.  
 If you plan to run the app on a physically connected device, to enable communication between the app and the API running on your computer, run this command:
 
 ```
