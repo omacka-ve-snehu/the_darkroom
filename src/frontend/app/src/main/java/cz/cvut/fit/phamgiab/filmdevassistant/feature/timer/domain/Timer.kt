@@ -71,7 +71,7 @@ object TimerStateCalculator {
             isRunning = isRunning,
             isFinished = isFinished,
             isAgitatingNow = isAgitating,
-            actionCountdownSeconds = actionCountdown,
+            actionCountdownSeconds = actionCountdown?.takeIf { it <= stageRemaining },
             nextStageName = nextStageNameAfter(stageIndex, recipeConfig)
         )
     }
