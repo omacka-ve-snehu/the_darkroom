@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "481643723512",
+    "project_id": "filmdevassistant",
+    "storage_bucket": "filmdevassistant.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481643723512:android:eecfb0e6d051ad35f6990d",
+        "android_client_info": {
+          "package_name": "cz.cvut.fit.phamgiab.filmdevassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3xPIC_EchNF05aw03SY2BNAq_mrQBUC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
